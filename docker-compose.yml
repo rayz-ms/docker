@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  streamlink-api:
+    image: streamlink-api:latest
+    hostname: streamlink-api
+    ports:
+      - 8001:80
